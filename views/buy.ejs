@@ -1,0 +1,6 @@
+<h1>Buy <%= book.title %></h1>
+<p>Author: <%= book.author %></p>
+<p>Price: $<%= book.price %></p>
+<form action="/purchase" method="POST">
+    <button type="submit">Complete Purchase</button>
+</form>
